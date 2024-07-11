@@ -73,7 +73,7 @@ text-align: center;
 margin-top: 24px;
 margin-bottom: 32px;
 }
-.banner-content-btn button{
+.banner-content-btn a{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -84,6 +84,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+text-decoration: none;
 border: none;
 }
 main{
@@ -600,6 +601,7 @@ text-decoration-line: underline;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
+    margin-bottom: 111px;
 
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
@@ -614,6 +616,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 16px;
 }
 .footer-title p{
     color: rgb(255, 255, 255);
@@ -644,5 +647,42 @@ width: 550px;
 margin-left: 15px;
 height: 25px;
 }
-.footer-input button{
+.footer-btn button{
+
+ padding: 12px 20px 12px 20px;
+ border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+}
+.footer-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    
+}
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+}
+.footer-banner-head h1{
+    margin-top: 32px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+   
+}
+.footer-social{
+    margin-top: 32px;
+    
 }
